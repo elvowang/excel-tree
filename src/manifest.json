@@ -1,0 +1,22 @@
+{
+  "name": "exceltree",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "author": "Elvo Wang",
+  "description": "excel table to a tree structure list",
+  "homepage_url": "https://github.com/elvowang/excel-tree",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_popup": "popup/index.html",
+    "default_icon": {
+      "32": "icons/32.png",
+      "48": "icons/48.png"
+    }
+  },
+  "icons": {
+    "32": "icons/32.png",
+    "48": "icons/48.png"
+  }
+}
